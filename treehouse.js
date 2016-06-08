@@ -23,11 +23,13 @@ $.getJSON(url, function(data) {
   });
   
     $('#see').click(function(){
-    $('#list').toggle("slow");
+       
+    $('#list').slideToggle("slow")
+    
    });
 
 });
-// end getJson
+
 
 
 
